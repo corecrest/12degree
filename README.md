@@ -1,6 +1,12 @@
 # 12 Degrés Kigali — Site vitrine
 
-Site vitrine responsive monopage, entièrement en français. Ouvrir `index.html` dans un navigateur, ou déployer le dossier sur Cloudflare Pages, Netlify ou un hébergement statique.
+Site vitrine responsive bilingue français/anglais. Ouvrir `index.html` dans un navigateur, ou déployer le dossier sur Cloudflare Pages, Netlify ou un hébergement statique.
+
+## Langues
+- `index.html` : français par défaut ; `en.html` : anglais.
+- Le sélecteur FR/EN reste visible sur mobile et fonctionne sans JavaScript.
+- `language.js` mémorise le choix et conserve la section consultée. `index.html?lang=fr` revient explicitement au français.
+- Déployer les deux pages et `language.js` ensemble. Mettre à jour les deux pages lors des modifications de contenu.
 
 ## Sections
 - Accueil / signature de marque
